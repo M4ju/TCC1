@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: 'azonix';
+    src: url('../fonts/Azonix.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'enixe';
+    src: url('../fonts/Enixe.otf') format('opentype'), url('../fonts/Enixe.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: mont;
+    src: url('../fonts/Montserrat-Regular.otf') format('opentype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Roboto', sem serifa;
+}
+
+
+html {
+    width: 100vmax;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden; 
+}
+
+/*treino*/
+.treino {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; 
+}
+
+.treino .tt {
+    text-align: left;
+    font-size: 5rem;
+    font-family: 'enixe';
+    font-weight: 700;
+    color: #14213d; 
+    text-transform: uppercase; 
+    
+}
+
+
+.itens-treino {
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 350px) ); 
+    justify-content: center;
+    align-items: center;
+    gap: 30px; 
+}
+
+.itens-treino .info {
+    background-color: #ffffff; 
+    border: none; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+.itens-treino .info h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;  
+    text-decoration: underline;
+    font-family: 'azonix';
+}
+
+.itens-treino .info h4 { 
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    margin-left: 6rem;
+}
+
+.itens-treino .info h4 span {
+    font-size: 1.6rem;
+    color: #585858;
+    margin-left: 1.5rem;
+    text-decoration: underline; 
+}
+
+.itens-treino div {
+    background-color: #5e5252;
+    box-shadow: 0px 0px 4px 5px #e3e3e3;
+    border-radius: 10%;
+}
+
+.itens-treino img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.itens-treino .info .pedir {
+    width: 200px;
+    margin-top: 0.5rem;
+    background-color: #14213d;
+    border-radius: 30px; 
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 200ms ease-in;
+    padding: 15px 5px ;
+    text-align: center;
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: 'azonix';
+}
+
+.itens-treino .info .pedir:hover {
+    background-color: #5e5252;
+    color: white;
+}

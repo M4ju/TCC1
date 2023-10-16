@@ -1,0 +1,117 @@
+  /* Media queries */
+
+  /* CELULARES */
+  @media (max-width:450px) {
+
+      .background-image {
+          width: 100%;
+          height: 27vh;
+          border-radius: 3px;
+      }
+
+      .logo-container {
+          display: none;
+      }
+
+      .slogan {
+
+          top: 7rem;
+          /*espaço entre o slogan e a logo */
+          margin-left: 45%;
+          transform: translate(-50%, -50%);
+          font-size: 1.2rem;
+
+          /* tamanho da fonte */
+      }
+
+      .menu {
+          display: none;
+      }
+
+      /*Fim do Cabeçalho*/
+
+      /*Inicio dos recursos que temos*/
+      .imgs {
+          margin-top: -37rem;
+          flex-direction: column;
+          padding: 0;
+      }
+
+      .image-box {
+          width: 200px;
+      }
+
+      .titulo {
+          margin-top: 1rem;
+          font-size: 30px;
+      }
+
+      .desc {
+          margin-top: -1rem;
+          font-size: 20px;
+      }
+
+      /*Fim dos recursos que temos*/
+
+      /*Slides*/
+      .slider {
+          margin: 0;
+          width: 23rem;
+          height: 10rem;
+          overflow: hidden;
+          position: relative;
+      }
+
+      .slide {
+          width: 25%;
+      }
+
+      .slide img {
+          width: 23rem;
+          height: 10rem;
+          border-radius: 3px;
+      }
+
+      /*Fim dos Slides*/
+
+      /* rodapé */
+      .contatos {
+          width: 100%;
+          margin-top: 15%;
+          border-radius: 3px;
+      }
+
+      .contatos h3 {
+          font-size: 2rem;
+          /* margin-bottom: 3rem; */
+      }
+
+      .contatos-secao {
+          width: 100%;
+          height: 5rem;
+          text-align: center;
+          font-size: 18px;
+          flex-direction: column;
+      }
+
+      .email-ctt {
+          margin-top: 5%;
+      }
+
+      .insta-ctt {
+          margin-top: 5%;
+      }
+
+      footer {
+        width: 100%;
+          height: 3rem;
+          font-size: 0.9rem;
+          border-radius: 3px;
+      }
+
+      /* fim do rodapé */
+  }
+
+
+  /* TELAS MÉDIAS */
+  
